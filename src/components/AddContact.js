@@ -19,8 +19,8 @@ class AddContact extends React.Component {
         this.setState({ name: "", email: "" });
 
         // You can now use navigate to programmatically navigate to different routes
-        const navigate = useNavigate();
-        navigate("/", { replace: true } );
+        // const navigate = useNavigate();
+        // navigate("/", { replace: true } );
     }
 
     render() {
